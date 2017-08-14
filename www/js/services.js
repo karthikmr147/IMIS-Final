@@ -1,7 +1,7 @@
 angular.module('app.services',[])
 
 .factory('MovieFactory', function($http){
-	var token = 'CCC23507E7F4522006B0A684B4663DC2';
+	var token = '503893E9E97106DF4C24FB55EE7E7438';
 	var TopMovies = 'https://api.cinemalytics.com/v1/analytics/TopMovies/?auth_token='+token;
 	var UpcomingMovies = 'http://api.cinemalytics.in/v2/movie/upcoming?auth_token='+token;
 	var TopGrossedMovies = 'http://api.cinemalytics.in/v2/analytics/TopGrossedMovies/?auth_token='+token;
